@@ -13,3 +13,5 @@ The program is a ramses player. It accepts a command line argument that gives th
 indicates a pebble and . indicates an empty square, respectively, in row-major order. The program needs to be called with three command line parameters: (1) the value of n,
 (2) the state of the board, encoded as above, and (3) a time limit in seconds. The program decides a recommended move given the current board state, and display the new state of the board
 after making that move, within the number of seconds specified.
+
+Sample commandline: python rameses.py 3 .x......x 5
